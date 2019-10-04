@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "EightBit";
+	src: url("eight-bit.TTF");
+}
+
+#score{
+	font-family: "EightBit";
+	padding: 27px;
+    color: white;
+    font-size: 40px;
+}
+
+body{
+	margin: 0px;
+}
+
+#game-board{
+	width: 100%;
+    height: 400px;
+    background-color: #f7f7f7;
+    margin: auto;
+    border-radius: 10px;	
+}
+
+#ground{
+	width: 100%;
+    height: 100px;
+    background-color: #007d00b8;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#game{
+	width: 100%;
+    height: 300px;
+    background-color: #43d4ff6b;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#sky{
+	width: 100%;
+    height: 250px;
+}
+
+#obstacles{
+	width: 100%;
+    height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.obstacle{
+	height: 50px;
+    width: 30px;
+    background: #b7b7b7;
+    position: absolute;
+    right: -50px;
+}
+
+#player{
+	height: 50px;
+    width: 50px;
+    background: yellow;
+    position: absolute;
+    left: 500px;
+    z-index: 1000;
+    top: 250px;
+}
+
+#modular{
+	margin-top: 50px;
+}
+
+.panel {
+  width: 800px;
+  height: 200px;
+  background-color: #f7f7f7;
+  margin: auto;
+}
+
+.slider-div{
+	margin: auto;
+	padding: 10px;
+}
+
+.slider-value{
+	font-family: "EightBit";
+    vertical-align: middle;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.outputs{
+	width: 200px;
+	height: 130px;
+	margin: 10px;
+	background-color: #eee;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	display: inline-block !important;
+    margin: 0;
+}
+
+li{
+	margin: 5px;
+}
+
+.notifier{
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	border-radius: 100px;
+}

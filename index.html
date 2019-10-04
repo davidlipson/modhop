@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha256-rByPlHULObEjJ6XQxW/flG2r+22R5dKiAoef+aXWfik=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="game-board">
+		<div id="game">
+			<div id="sky"></div>
+			<div id="obstacles">
+				<div id="player"></div>
+				<div class="obstacle"></div>
+			</div>
+		</div>
+		<div id="ground">
+			<div id="score"></div>
+		</div>
+	</div>
+	<div id="modular">
+		<div class="panel lookahead">
+			<div class="slider-div">
+				<div class="slider"></div>
+			</div>
+			<div class="outputs">
+				<ul>
+					<li class="presence">
+						<div class="notifier"></div>
+						<div class="connector"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="game.js"></script>
+</body>
+</html>
